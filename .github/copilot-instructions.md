@@ -1,0 +1,9 @@
+- This is a Next.js portfolio website with TypeScript and Tailwind CSS
+- The project uses the App Router pattern
+- Components are organized in layout/ and sections/ directories
+- Docker is configured for both development and production
+- Use `npm run dev` for local development
+- Use `docker-compose --profile dev up` for Docker development
+- Use `docker-compose --profile prod up` for Docker production
+- All styling uses Tailwind CSS with a dark theme and cyan accent color
+- Components are exported through src/components/index.ts
