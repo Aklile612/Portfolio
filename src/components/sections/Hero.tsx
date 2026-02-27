@@ -91,10 +91,10 @@ export default function Hero() {
     <>
       {/* Hero Section */}
       <section id="home" className="relative h-screen bg-[#253137]">
-        {/* Dark overlay for text readability */}
+        
         <div className="absolute inset-0 bg-[#253137]/50 z-[2] pointer-events-none"></div>
 
-        {/* Hero Content */}
+        
         <div className="relative z-[10] h-full flex items-center justify-center">
           <div className="max-w-4xl mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
