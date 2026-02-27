@@ -192,10 +192,11 @@ export default function About() {
           </p>
           <p className="text-gray-300 text-lg leading-relaxed">
             Today, I&apos;ve had the opportunity to work at a{' '}
-            <span className="text-emerald-400">Delivery Startup, International Software Company,
-            Outsourcing Agency, Food E-Learning Company, and a Campus Development Team</span>{' '}
+            <span className="text-emerald-400">Supermarket Delivery,Software Company,
+              and a Campus Development Team</span>{' '}
             My major emphasis at{' '}
-            <span className="text-emerald-400">Zare Innovations</span>{' '}
+            <span className="text-emerald-400">Swift
+Technologies</span>{' '}
             these days is creating accessible, inclusive products and digital experiences for a
             variety of customers.
           </p>
