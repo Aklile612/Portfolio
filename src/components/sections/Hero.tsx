@@ -107,9 +107,10 @@ export default function Hero() {
 
             <p className="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed">
               Hello there, I am <span className="text-emerald-400">Aklile Ansa</span> an Ethiopian developer with{' '}
-              <span className="text-emerald-400">3+ years of experience</span> who specializes in creating and developing
+              <span className="text-emerald-400">2+ years of experience</span> who specializes in creating and developing
               amazing digital experiences. At the moment, I&apos;m working at{' '}
-              <span className="text-emerald-400">Zare Innovations</span> on creating user-friendly, human-centered products.
+              <span className="text-emerald-400">Swift
+Technologies</span> on creating user-friendly, human-centered products.
             </p>
 
             <a
