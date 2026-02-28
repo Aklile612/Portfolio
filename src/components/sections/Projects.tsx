@@ -32,7 +32,7 @@ const projects = [
     tags: ['Go','Nuxt.js', 'TypeScript', 'PostgreSQL',],
     category: 'fullstack',
     github: 'https://github.com/Aklile612/gebeta',
-    demo: 'https://gebeta-2gsc.vercel.app/',
+    demo: 'https://gebeta-new.vercel.app/',
   },
   {
     id: 4,
