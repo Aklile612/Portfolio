@@ -1,0 +1,188 @@
+import type { ProjectType } from "@/types";
+
+export const projects: ProjectType[] = [
+  {
+    _id: "jobright",
+    name: "JobRight",
+    slug: "jobright",
+    tagline: "Software job search with resume scoring and ATS-ready forging",
+    projectUrl: "https://jobright.vercel.app/",
+    repository: "https://github.com/Aklile612/Jobright",
+    logo: "/projects/jobright.png",
+    coverImage: {
+      image: "/projects/jobright.png",
+      alt: "JobRight homepage",
+    },
+    technologies: ["Go", "Next.js", "Python", "Redis", "PostgreSQL"],
+    description: [
+      "JobRight helps software engineers find roles with less noise — browse live listings from Remotive, Arbeitnow, and RemoteOK, then tailor applications faster.",
+      "The platform scores resume–job fit, forges ATS-friendly PDFs, and supports in-site apply flows with autofill, so you spend more time shipping applications and less time copying forms.",
+      "Built as a monorepo with a Next.js frontend, Go API, PostgreSQL, Redis, and a Python resume-forge service for parse, score, and optimize workflows.",
+    ],
+  },
+  {
+    _id: "spoilerhub",
+    name: "SpoilerHub",
+    slug: "spoilerhub",
+    tagline: "Movie discovery with AI spoiler and ending breakdowns",
+    projectUrl: "https://spoiler-hub.vercel.app/",
+    repository: "https://github.com/Aklile612/spoilerHub",
+    logo: "/projects/spoilerhub.png",
+    coverImage: {
+      image: "/projects/spoilerhub.png",
+      alt: "SpoilerHub movie discovery interface",
+    },
+    technologies: [
+      "Go",
+      "Gin",
+      "Nuxt.js",
+      "Vue.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "TMDB",
+      "Gemini AI",
+    ],
+    description: [
+      "SpoilerHub is a full-stack movie discovery app that pairs TMDB movie data with AI-generated spoiler breakdowns, ending explanations, and thematic analysis.",
+      "Users can search movies, browse posters and ratings, and reveal structured spoiler insights when they want them — without digging through forums.",
+      "The backend is a Go/Gin REST API with caching and clean service architecture; the frontend is a dark, cinematic Nuxt 3 + TypeScript experience.",
+    ],
+  },
+  {
+    _id: "hr-ai-agent",
+    name: "HR-AI Agent",
+    slug: "hr-ai-agent",
+    tagline: "AI-powered HR automation for screening, matching, and interviews",
+    projectUrl: "https://hr-ai-agent-delta.vercel.app/",
+    repository: "https://github.com/Aklile612/HR_Ai-agent",
+    logo: "/projects/HR_AIagent.png",
+    coverImage: {
+      image: "/projects/HR_AIagent.png",
+      alt: "HR-AI Agent dashboard",
+    },
+    technologies: [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "VAPI",
+      "Gemini 2.0",
+    ],
+    description: [
+      "An AI-powered HR automation platform for candidate screening, resume analysis, and job matching.",
+      "It automates interview scheduling, invitations, and candidate management with secure authentication and real-time data handling.",
+      "Built with a modern TypeScript stack and integrated voice/AI capabilities for a smoother recruitment workflow.",
+    ],
+  },
+  {
+    _id: "blood-donation",
+    name: "Blood Donation Management System",
+    slug: "blood-donation-management",
+    tagline: "Full-stack donor, inventory, and hospital request workflows",
+    projectUrl: "https://gebeta-new.vercel.app/",
+    repository: "https://github.com/Aklile612/gebeta",
+    logo: "/projects/gebeta.png",
+    coverImage: {
+      image: "/projects/gebeta.png",
+      alt: "Blood Donation Management System",
+    },
+    technologies: [
+      "Golang",
+      "Vue.js",
+      "Nuxt.js",
+      "TypeScript",
+      "Tailwind CSS",
+    ],
+    description: [
+      "A full-stack blood donation management system with donor registration, inventory management, and hospital request workflows.",
+      "Includes a scalable backend, responsive frontend, and real-time updates with SMS notifications.",
+    ],
+  },
+  {
+    _id: "swift-delivery",
+    name: "Swift Delivery",
+    slug: "swift-delivery",
+    tagline: "Secure e-commerce platform with Chapa payment integration",
+    projectUrl: "https://swiftdelivery.et/",
+    repository: "https://github.com/Aklile612",
+    logo: "/projects/delivery.png",
+    coverImage: {
+      image: "/projects/delivery.png",
+      alt: "Swift Delivery platform",
+    },
+    technologies: [
+      "Next.js",
+      "React",
+      "Nest.js",
+      "PostgreSQL",
+      "Chapa",
+      "Tailwind CSS",
+    ],
+    description: [
+      "A full-stack e-commerce platform with secure authentication, role-based access, product and order management, payment integration (Chapa), and an analytics dashboard.",
+      "Designed for performance and operational clarity across vendors, customers, and admins.",
+    ],
+  },
+  {
+    _id: "codlingo",
+    name: "CodLingo",
+    slug: "codlingo",
+    tagline: "Gamified mobile app for coding streaks, quests, and consistency",
+    projectUrl: "",
+    repository: "https://github.com/Aklile612",
+    logo: "/projects/codlingo.png",
+    coverImage: {
+      image: "/projects/codlingo.png",
+      alt: "CodLingo mobile app streaks and daily quests",
+    },
+    technologies: ["Flutter", "Python", "Celery", "Redis", "Docker"],
+    description: [
+      "A gamified mobile app that encourages consistent coding with day streaks, XP, levels, and daily quests like pushing code, opening PRs, reviewing code, and closing issues.",
+      "Recommends GitHub issues and open-source repositories based on preferred languages, then rewards real contribution activity.",
+      "The Python backend uses Celery, Redis, and Docker to automate task scheduling, repository recommendations, and contribution tracking.",
+    ],
+  },
+  {
+    _id: "swift-mobility",
+    name: "Swift Mobility",
+    slug: "swift-mobility",
+    tagline: "Scooter rental platform with booking and payments",
+    projectUrl: "https://swift-mob.vercel.app/",
+    repository: "https://github.com/Aklile612",
+    logo: "/projects/swiftMobilty.png",
+    coverImage: {
+      image: "/projects/swiftMobilty.png",
+      alt: "Swift Mobility scooter rental",
+    },
+    technologies: ["React", "Node.js", "MongoDB", "Chapa"],
+    description: [
+      "A scooter rental platform with real-time availability, booking flows, and payment gateway integration.",
+      "Focused on a simple user experience for discovering, reserving, and paying for mobility options.",
+    ],
+  },
+  {
+    _id: "reminder-app",
+    name: "Reminder Student App",
+    slug: "reminder-student-app",
+    tagline: "Student dashboard for assignments, grades, and reminders",
+    projectUrl: "https://reminder-app-phi-two.vercel.app/",
+    repository: "https://github.com/Aklile612/Reminder-App",
+    logo: "/projects/reminder.png",
+    coverImage: {
+      image: "/projects/reminder.png",
+      alt: "Reminder Student App",
+    },
+    technologies: ["React", "Node.js", "Tailwind CSS", "Firebase"],
+    description: [
+      "An interactive dashboard for students to manage assignments, track grades, and receive notifications.",
+      "Includes calendar-oriented workflows and a clean interface for day-to-day academic planning.",
+    ],
+  },
+];
+
+export function getProjectBySlug(slug: string) {
+  return projects.find((project) => project.slug === slug);
+}
